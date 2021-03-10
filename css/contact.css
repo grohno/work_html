@@ -1,0 +1,39 @@
+.contact{
+  border-collapse: collapse;
+  border-spacing:0;
+}
+.contact tr{
+  height: 7rem;
+}
+.contact th{
+  width: 140px;
+  text-align: right;
+  padding-right: 1rem;
+}
+.contact td{
+  width: 480px;
+}
+.contact tr:last-child {
+  text-align: center;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  border: 1px solid #c0c0c0;
+  width: 100%;
+}
+.contact input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+.contact input[type="submit"] {
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  background: #00a2b4;
+  padding: 8px 10px 5px;
+  font-size: 2rem;
+  outline: none;
+}
+.contact input[type="submit"]:hover {
+  opacity: 0.6;
+}
